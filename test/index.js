@@ -61,6 +61,11 @@ suite("tools", function() {
   })
 
 
+  test("sortTuples", function() {
+    assert.equal(tools.sortTuples, helpers.sortTuples)
+  })
+
+
   test("filter", function() {
     var tuples = [
       ["ab",3],
