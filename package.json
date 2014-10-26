@@ -1,0 +1,17 @@
+{
+  "name": "text-frequencies-analysis",
+  "version": "1.0.0",
+  "author": "Simon Lydell",
+  "description": "A bunch of functions to analyse frequencies in text.",
+  "main": "lib/index.js",
+  "repository": "lydell/text-frequencies-analysis",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "get-stdin": "~0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^1.18.2"
+  }
+}
