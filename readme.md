@@ -29,7 +29,7 @@ Usage
 Each function is described in the source code. The tests are also informative.
 
 Moreover, the file english-analysis.js is an example on how to use the
-tuple-producing functions.
+tuple-producing functions. Here’s a [gist] of the output, as an example.
 
 Here’s a small taste of what you can do with the rest of the functions:
 
@@ -52,6 +52,8 @@ Sometimes it’s hard to believe that a certain pair of letters is as common as
 your data say. Then it’s useful to get a list of words that include that pair.
 
     pairWords(words, "ul")
+
+[gist]: https://gist.github.com/lydell/e807977107e041c147ab
 
 
 License
