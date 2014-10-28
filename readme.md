@@ -28,8 +28,8 @@ Usage
 
 Each function is described in the source code. The tests are also informative.
 
-Moreover, the file english-analysis.js is an example on how to use the
-tuple-producing functions. Here’s a [gist] of the output, as an example.
+Moreover, the file analyse.js is an example on how to use the tuple-producing
+functions. Here’s a [gist] of the output, as an example.
 
 Here’s a small taste of what you can do with the rest of the functions:
 
