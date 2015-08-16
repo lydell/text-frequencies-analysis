@@ -6,7 +6,7 @@
   "main": "lib/index.js",
   "repository": "lydell/text-frequencies-analysis",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --ui tdd"
   },
   "dependencies": {
     "get-stdin": "~0.1.0"
