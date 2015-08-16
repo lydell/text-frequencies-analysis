@@ -9,9 +9,9 @@
     "test": "mocha --ui tdd"
   },
   "dependencies": {
-    "get-stdin": "~0.1.0"
+    "get-stdin": "~4.0.1"
   },
   "devDependencies": {
-    "mocha": "^1.18.2"
+    "mocha": "^2.2.5"
   }
 }
