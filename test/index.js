@@ -49,8 +49,8 @@ suite("tools", function() {
   test("pairWords", function() {
     var words = ["there", "are", "rivers", "in", "reALity"]
     assert.equal(tools.pairWords(words, "ht"), "THere")
-    assert.equal(tools.pairWords(words, "er"), "thERE,aRE,rivERs,REality")
-    assert.equal(tools.pairWords(words, "re"), "thERE,aRE,rivERs,REality")
+    assert.equal(tools.pairWords(words, "er"), "thERE aRE rivERs REality")
+    assert.equal(tools.pairWords(words, "re"), "thERE aRE rivERs REality")
     assert.equal(tools.pairWords(words, "AL"), "reALity")
     assert.equal(tools.pairWords(words, "qz"), "")
   })
